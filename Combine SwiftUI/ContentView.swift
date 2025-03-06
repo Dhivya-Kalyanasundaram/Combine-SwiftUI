@@ -22,6 +22,7 @@ class PostViewModel: ObservableObject {
     init() {
         fetchPosts()
         print("hello")
+        print("added this line")
     }
     
     func fetchPosts() {
